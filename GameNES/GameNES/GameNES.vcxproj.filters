@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{322aea95-11aa-421d-b5d0-662f677129f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameControllers">
+      <UniqueIdentifier>{47ccfbf4-9566-4d5e-85f3-a198ca65308c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameComponents">
+      <UniqueIdentifier>{88c98e98-0f9b-4455-af02-c6a6d80173d3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\Resources\normalbrick.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\Resources\goldbrick.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\GameComponents\Animation.cpp">
+      <Filter>GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\GameComponents\Game.cpp">
+      <Filter>GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\GameComponents\GameGlobal.cpp">
+      <Filter>GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\GameComponents\GameTime.cpp">
+      <Filter>GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\GameComponents\Scene.cpp">
+      <Filter>GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\GameComponents\Sprite.cpp">
+      <Filter>GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\GameControllers\SceneManager.cpp">
+      <Filter>GameControllers</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\Scenes\DemoScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\GameComponents\Animation.h">
+      <Filter>GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\GameComponents\Game.h">
+      <Filter>GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\GameComponents\GameGlobal.h">
+      <Filter>GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\GameComponents\GameTime.h">
+      <Filter>GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\GameComponents\Scene.h">
+      <Filter>GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\GameComponents\Sprite.h">
+      <Filter>GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\GameControllers\SceneManager.h">
+      <Filter>GameControllers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\5 DirectXGame\DemoDirectX\Scenes\DemoScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
