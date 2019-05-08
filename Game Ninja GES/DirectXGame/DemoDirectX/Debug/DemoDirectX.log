@@ -1,0 +1,5 @@
+﻿  Cell.cpp
+C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\10 - map objects\DirectXGame\DemoDirectX\Cell.h(2): fatal error C1083: Cannot open include file: 'Object.h': No such file or directory
+  Grid.cpp
+C:\Users\Admin\Desktop\DirectX Tut-20190318T150959Z-001\DirectX Tut\10 - map objects\DirectXGame\DemoDirectX\Grid.h(2): fatal error C1083: Cannot open include file: 'GameGlobal.h': No such file or directory
+  Generating Code...
