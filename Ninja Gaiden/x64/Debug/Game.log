@@ -1,0 +1,9 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(411,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Game.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  ObjectItemShuriken.cpp
+  C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+D:\GameUIT_SE102.J21\Ninja Gaiden\GameGlobal.h(25): warning C4091: 'extern ': ignored on left of 'Tag' when no variable is declared
+D:\GameUIT_SE102.J21\Ninja Gaiden\GameGlobal.h(42): warning C4091: 'extern ': ignored on left of 'Type' when no variable is declared
+D:\GameUIT_SE102.J21\Ninja Gaiden\GameGlobal.h(61): warning C4091: 'extern ': ignored on left of 'State' when no variable is declared
+D:\GameUIT_SE102.J21\Ninja Gaiden\PlayerSprite.h(17): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+D:\GameUIT_SE102.J21\Ninja Gaiden\ObjectItemSprite.h(16): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+  Game.vcxproj -> D:\GameUIT_SE102.J21\Ninja Gaiden\x64\Debug\DemoDirectX.exe
