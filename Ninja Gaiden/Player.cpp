@@ -312,7 +312,7 @@ void Player::AttackWith(Type item)
 			this->item->isReverse = isReverse;
 			this->item->posX = isReverse ? this->posX - 3 : this->posX + 3;
 			//this->item->posY = this->posY - 8;
-			this->item->vx = isReverse ? -ITEM_SHURIKEN_SPEED : ITEM_SHURIKEN_SPEED;
+			this->item->vx = isReverse ? -BLUESHURIKEN_SPEED : BLUESHURIKEN_SPEED;
 			this->item->isOnScreen = true;
 		}
 		break;

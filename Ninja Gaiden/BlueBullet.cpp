@@ -1,20 +1,19 @@
-#include "ObjectItemBullet.h"
+#include "BlueBullet.h"
 
-ObjectItemBullet::ObjectItemBullet()
+BlueBullet::BlueBullet()
 {
 	sprite = SpriteLoader::GetInstance()->GetSprite(ENEMY, 11);
-	tag = ITEM;
 	type = BULLET;
 	this->height = BULLET_HEIGHT;
 	this->width = BULLET_WIDTH;
 	this->isOnScreen = false;
 }
 
-ObjectItemBullet::~ObjectItemBullet()
+BlueBullet::~BlueBullet()
 {
 }
 
-void ObjectItemBullet::Update(float dt, int leftScreen, int rightScreen)
+void BlueBullet::Update(float dt, int leftScreen, int rightScreen)
 {
 	if (isOnScreen)
 	{
@@ -24,7 +23,7 @@ void ObjectItemBullet::Update(float dt, int leftScreen, int rightScreen)
 	}
 }
 
-void ObjectItemBullet::Render(float translateX, float translateY)
+void BlueBullet::Render(float translateX, float translateY)
 {
 	if (isOnScreen)
 	{

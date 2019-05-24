@@ -11,13 +11,13 @@ public:
 	Object() {}
 	~Object() {}
 
-	Tag tag;									
+	Tag tag;									// Tag định loại Object
 	float spawnX, spawnY;
-	float posX, posY;							//tâm của object
-	float vx, vy;								
+	float posX, posY;							// Vị trí (đồng thời là tâm của Object đó)
+	float vx, vy;								// Vận tốc
 	float dx, dy;
-	int width, height;			
-	bool isReverse;								// Kiểm tra flipping
+	int width, height;							// Kích thước
+	bool isReverse;								// Kiểm tra lật hình theo chiều ngang
 
 	Rect GetRect();
 	BoundingBox GetBoundingBox();

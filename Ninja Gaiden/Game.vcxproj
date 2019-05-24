@@ -133,9 +133,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="BlueBullet.cpp" />
+    <ClCompile Include="BlueShuriken.cpp" />
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="Cell.cpp" />
     <ClCompile Include="Collision.cpp" />
+    <ClCompile Include="Dagger.cpp" />
     <ClCompile Include="EnemyBazokaMan.cpp" />
     <ClCompile Include="EnemyCloakMan.cpp" />
     <ClCompile Include="EnemyEagle.cpp" />
@@ -173,14 +176,18 @@
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="SpriteLoader.cpp" />
     <ClCompile Include="EnemySwordMan.cpp" />
+    <ClCompile Include="SwingWord.cpp" />
     <ClCompile Include="Texture.cpp" />
     <ClCompile Include="TextureLoader.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animation.h" />
+    <ClInclude Include="BlueBullet.h" />
+    <ClInclude Include="BlueShuriken.h" />
     <ClInclude Include="Camera.h" />
     <ClInclude Include="Cell.h" />
     <ClInclude Include="Collision.h" />
+    <ClInclude Include="Dagger.h" />
     <ClInclude Include="Define.h" />
     <ClInclude Include="Enemy.h" />
     <ClInclude Include="EnemyBazokaMan.h" />
@@ -190,6 +197,7 @@
     <ClInclude Include="EnemyGunMan.h" />
     <ClInclude Include="EnemyPanther.h" />
     <ClInclude Include="EnemySprite.h" />
+    <ClInclude Include="FireWheel.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="GameGlobal.h" />
     <ClInclude Include="Grid.h" />
@@ -223,9 +231,14 @@
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="SpriteLoader.h" />
     <ClInclude Include="EnemySwordMan.h" />
+    <ClInclude Include="SwingWord.h" />
+    <ClInclude Include="Sword.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="TextureLoader.h" />
     <ClInclude Include="ObjectItemSprite.h" />
+    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="WeaponLoader.h" />
+    <ClInclude Include="WeaponSprites.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="DemoDirectX.rc" />

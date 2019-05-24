@@ -8,8 +8,8 @@ ObjectItemShuriken::ObjectItemShuriken()
 {
 	_sprite = SpriteLoader::GetInstance()->GetSprite(ITEM, 2);
 	isOnScreen = false;
-	width = ITEM_SHURIKEN_WIDTH;
-	height = ITEM_SHURIKEN_HEIGHT;
+	width = BLUESHURIKEN_WIDTH;
+	height = BLUESHURIKEN_HEIGHT;
 	tag = ITEM;
 	type = SHURIKEN;
 }

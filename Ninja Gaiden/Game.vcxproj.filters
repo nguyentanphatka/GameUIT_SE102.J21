@@ -130,6 +130,18 @@
     <ClCompile Include="Texture.cpp">
       <Filter>Game Components</Filter>
     </ClCompile>
+    <ClCompile Include="BlueBullet.cpp">
+      <Filter>Game Objects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueShuriken.cpp">
+      <Filter>Game Objects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Dagger.cpp">
+      <Filter>Game Objects\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="SwingWord.cpp">
+      <Filter>Game Objects\Weapon</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Animation.h">
@@ -273,9 +285,38 @@
     <ClInclude Include="Texture.h">
       <Filter>Game Components</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h" />
     <ClInclude Include="Define.h">
       <Filter>GameDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapon.h">
+      <Filter>Game Objects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBullet.h">
+      <Filter>Game Objects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueShuriken.h">
+      <Filter>Game Objects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Dagger.h">
+      <Filter>Game Objects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="FireWheel.h">
+      <Filter>Game Objects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Game Objects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="SwingWord.h">
+      <Filter>Game Objects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>Game Objects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponSprites.h">
+      <Filter>Game Objects\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponLoader.h">
+      <Filter>Game Objects\Weapon</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -311,6 +352,9 @@
     </Filter>
     <Filter Include="GameDefine">
       <UniqueIdentifier>{5ad26e58-757c-4d22-be0b-ec65e63d7aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Objects\Weapon">
+      <UniqueIdentifier>{c98ebe9d-c0ba-45ea-b435-50e1c7b3ab89}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

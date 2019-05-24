@@ -1,9 +1,8 @@
-#include "ObjectItemDagger.h"
+#include "Dagger.h"
 
-ObjectItemDagger::ObjectItemDagger()
+Dagger::Dagger()
 {
 	sprite = SpriteLoader::GetInstance()->GetSprite(ENEMY, 15);
-	tag = ITEM;
 	type = DAGGER;
 	vx = -0.03;
 	vy = 0.06;
@@ -12,11 +11,11 @@ ObjectItemDagger::ObjectItemDagger()
 	this->isOnScreen = false;
 }
 
-ObjectItemDagger::~ObjectItemDagger()
+Dagger::~Dagger()
 {
 }
 
-void ObjectItemDagger::Update(float dt, int maxHigh, int leftScreen, int rightScreen)
+void Dagger::Update(float dt, int maxHigh, int leftScreen, int rightScreen)
 {
 	if (isOnScreen)
 	{
@@ -36,7 +35,7 @@ void ObjectItemDagger::Update(float dt, int maxHigh, int leftScreen, int rightSc
 	}
 }
 
-void ObjectItemDagger::Render(float translateX, float translateY)
+void Dagger::Render(float translateX, float translateY)
 {
 	if (isOnScreen)
 	{

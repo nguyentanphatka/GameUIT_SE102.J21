@@ -22,6 +22,7 @@ extern enum Tag
 	MAP3_2,
 	ENEMY,
 	HOLDER,
+	WEAPON,
 };
 
 extern enum Type
@@ -39,6 +40,8 @@ extern enum Type
 	BULLET,
 	BUTTERFLY,
 	DAGGER,
+	BLUESHURIKEN,
+	FIREWHEEL
 };
 
 extern enum State

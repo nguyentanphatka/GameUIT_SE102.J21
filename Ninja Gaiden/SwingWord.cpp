@@ -1,24 +1,23 @@
-#include "ObjectItemSwingSword.h"
+#include "SwingWord.h"
 
-ObjectItemSwingSword::ObjectItemSwingSword()
+SwingSword::SwingSword()
 {
-	_animation = new Animation(ITEM, 3, 6);
+	animation = new Animation(WEAPON, 5, 8);
 	isOnScreen = false;
 	width = SWINGSWORD_WIDTH;
 	height = SWINGSWORD_HEIGHT;
-	tag = ITEM;
 	type = SWINGSWORD;
 }
 
-void ObjectItemSwingSword::Update(float dt)
+void SwingSword::Update(float dt)
 {
 }
 
-void ObjectItemSwingSword::Render(float x, float y, int frameIndex, float translateX, float translateY)
+void SwingSword::Render(float x, float y, int frameIndex, float translateX, float translateY)
 {
 	if (!isOnScreen) return;
 
-	Sprite* sprite = _animation->GetSprite(frameIndex);
+	Sprite* sprite = animation->GetSprite(frameIndex);
 	sprite->isReverse = this->isReverse;
 
 	switch (frameIndex)

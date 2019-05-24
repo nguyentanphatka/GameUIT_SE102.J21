@@ -4,8 +4,8 @@ ObjectItemSword::ObjectItemSword()
 {
 	_animation = new Animation(ITEM, 0, 1, DEFAULT_TPS >> 1);
 	isOnScreen = false;
-	width = ITEM_SWORD_WIDTH;
-	height = ITEM_SWORD_HEIGHT;
+	width = SWORD_WIDTH;
+	height = SWORD_HEIGHT;
 	tag = ITEM;
 	type = SWORD;
 }
