@@ -1,4 +1,5 @@
 ﻿#include "PlayerAttackingState.h"
+#include "Define.h"
 
 // Khởi tạo State ATTACK (StateName tùy vào trạng thái trước đó là đánh hoặc ngồi)
 PlayerAttackingState::PlayerAttackingState()

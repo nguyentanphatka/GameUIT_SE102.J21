@@ -6,7 +6,7 @@ class FireWheel : public Weapon
 public:
 	FireWheel()
 	{
-		animation = new Animation(WEAPON, 7, 10, DEFAULT_TPS >> 4);
+		animation = new Animation(WEAPON, 7, 10, DEFAULT_FPS >> 4);
 		width = FIREWHEEL_WIDTH;
 		height = FIREWHEEL_HEIGHT;
 		vx = FIREWHEEL_SPEED;

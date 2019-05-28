@@ -1,7 +1,7 @@
 ﻿#pragma once
 #include "Sprite.h"
 #include "PlayerSprite.h"
-#include "ObjectItemSprite.h"
+#include "WeaponSprites.h"
 #include "EnemySprite.h"
 
 // Chứa tất cả các Sprite cần dùng cho Game, khởi tạo trước khi vào vòng lặp Game (Run)

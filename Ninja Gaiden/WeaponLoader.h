@@ -39,7 +39,7 @@ public:
 			break;
 
 		case FIREWHEEL:
-			w = (WeaponFireWheel*)w;
+			w = (FireWheel*)w;
 			break;
 		}
 

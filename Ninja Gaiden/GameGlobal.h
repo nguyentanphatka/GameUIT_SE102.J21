@@ -29,6 +29,7 @@ extern enum Type
 {
 	NONE,
 	SWORD,
+	EXPLODED,
 	SHURIKEN,
 	SWINGSWORD,
 	SWORDMAN,

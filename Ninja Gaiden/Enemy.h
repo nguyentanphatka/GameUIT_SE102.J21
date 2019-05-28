@@ -3,6 +3,7 @@
 #include "EnemySprite.h"
 #include "Cell.h"
 #include <algorithm>
+#include "Define.h"
 
 class Enemy : public Object
 {
@@ -38,18 +39,39 @@ public:
 		curAnimation->Render(posX, posY);
 	}
 
-	virtual void Update(float dt)
-	{
-		curAnimation->Update(dt);
-		dx = vx * dt;
-		dy = vy * dt;
-	}
-
 	bool IsRespawnOnScreen()
 	{
 		return Rect(spawnX - (width >> 1), spawnY - (height >> 1), width, height).IsContain(camera->GetRect());
 	}
 
+	virtual void UpdateDistance(float dt)
+	{
+		this->dx = vx * dt;
+		this->dy = vy * dt;
+	}
+
+	virtual void Update(float dt)
+	{
+		if (this->isActive)
+		{
+				curAnimation->Update(dt);
+				this->UpdateDistance(dt);
+		}
+
+		if (this->StateName == DEAD)
+		{
+			this->dx = this->dy = 0;
+
+	
+			//curAnimation->Update(dt);
+
+			if (curAnimation->isLastFrame)
+			{
+				this->isDead = true;
+				this->isActive = false;
+			}
+		}
+	}
 
 	void ChangeState(State StateName)
 	{

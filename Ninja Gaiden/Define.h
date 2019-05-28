@@ -6,7 +6,7 @@
 #define SCREEN_HEIGHT 176						// Chiều dài cửa sổ
 #define MAX_FRAME_RATE 90						// FPS
 #define BACK_COLOR D3DCOLOR_XRGB(0, 0, 0)		// Màu nền BackBuffer
-#define DEFAULT_TPS 150							// Thời gian tồn tại của mỗi Frame (cho Animation)
+#define DEFAULT_FPS 150							// Thời gian tồn tại của mỗi Frame (cho Animation)
 #define GRAVITY_SPEED 0.014f					// Tốc độ trọng lực
 #define KEYBOARD_BUFFER_SIZE 1024
 #define NUMBER_MAP_LEVEL 1

@@ -226,7 +226,30 @@ std::unordered_set<Rect*> Grid::GetVisibleWalls()
 	}
 	return setWalls;
 }
+std::unordered_set<Object*> Grid::GetColliableObjects(Object* obj)
+{
+	std::unordered_set<Object*> objs;
 
+	auto r = obj->GetRect();
+	int LeftCell = r.x / Cell::width;
+	int RightCell = (r.x + r.width) / Cell::width;
+	int TopCell = r.y / Cell::height;
+	int BottomCell = (r.y - r.height) / Cell::height;
+
+	for (int y = BottomCell; y <= TopCell; ++y)
+	{
+		if (y < 0 || y >= rows) continue;
+		for (int x = LeftCell; x <= RightCell; ++x)
+		{
+			if (x < 0 || x >= columns) continue;
+			for (auto o : cells[y][x]->objects)
+			{
+				objs.insert(o);
+			}
+		}
+	}
+	return objs;
+}
 std::unordered_set<Rect*> Grid::GetVisibleGrounds()
 {
 	std::unordered_set<Rect*> setGrounds;

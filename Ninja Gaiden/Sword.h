@@ -6,7 +6,7 @@ class Sword : public Weapon
 public:
 	Sword()
 	{
-		animation = new Animation(WEAPON, 3, 4, DEFAULT_TPS >> 1);
+		animation = new Animation(WEAPON, 3, 4, DEFAULT_FPS >> 1);
 		isOnScreen = false;
 		width = SWORD_WIDTH;
 		height = SWORD_HEIGHT;
